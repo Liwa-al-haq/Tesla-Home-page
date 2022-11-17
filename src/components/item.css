@@ -1,0 +1,50 @@
+.item{
+    height:100vh;
+    width:1519px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.item_container{
+    width:40vw;
+    display: flex;
+    flex-direction: center;
+}
+
+.item_text{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    font-size: 43px;
+    font-weight: 500;
+    color: black;
+    align-items: center;
+    margin-right: 0px;
+    flex: 1;
+}
+
+.item_textDesc{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.item_lowerThird{
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item_buttons{
+    display: flex;
+    margin-left: -390px;
+}
+
+.item_expand{
+    color:white;
+    width:100%;
+    margin-top: 3%;
+    justify-content: center;
+}
