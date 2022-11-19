@@ -48,3 +48,14 @@
     margin-top: 3%;
     justify-content: center;
 }
+
+html{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+  }
+  
+.item{
+    scroll-snap-align:start;
+    transition: 2s;
+}
